@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/wow.css">z
+    <link rel="stylesheet" href="css/wow.css">
 
 
 </head>
@@ -195,7 +195,7 @@
                         <h4><a href="#">Interior Design</a></h4>
                         <p>We are ipsum dolor is ame, consectetur adipisicing elit, sed do eiusmod</p>
                     </div>
-                </div> 
+                </div>
                 <div class="slide-item wow swing center" data-wow-delay="1s">
                     <div class="fetures-card">
                         <img src="images/icon-04.png">
@@ -1202,6 +1202,7 @@
                     {
                         breakpoint: 576,
                         settings: {
+                            arrows:false,
                             slidesToShow: 1,
                             slidesToScroll: 1,
                             infinite: true,
@@ -1232,38 +1233,43 @@
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         infinite: true,
+                    },
+                    breakpoint: 576,
+                    settings: {
+                       arrows:false,
                     }
+                  
                 }
                 ]
             });
-            $('.brand-slider').slick({
-                infinite: true,
-                slidesToShow: 5,
-                slidesToScroll: 1,
-                arrows: false,
-                dots: false,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                speed: 2000,
+        $('.brand-slider').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            speed: 2000,
 
 
-                responsive: [
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 3,
-                            infinite: true,
-                        }
-                    },
-                    {
-                        breakpoint: 576,
-                        settings: {
-                            slidesToShow: 2,
-                            infinite: true,
-                        }
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        infinite: true,
                     }
-                ]
-            });
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        infinite: true,
+                    }
+                }
+            ]
+        });
         });
     </script>
 </body>
