@@ -165,8 +165,7 @@ h2{
         display: none;
     }
     .nav ul{
-        left: -100%;
-        
+        left:-100%;
         transition: all ease 1s;
          li{
             a{
@@ -232,12 +231,12 @@ h2{
   }
   .show .nav ul{
     position: absolute;
-    top:0;
+    top:100%;
     left:0;
     flex-direction: column;
     background: white;
     display: inline-block;
-    width: 50%;
+    width: 1000%;
     height: 100vh;
     z-index: 9999;
     padding: 100px 50px;
