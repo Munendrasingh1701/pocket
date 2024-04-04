@@ -1128,7 +1128,13 @@ body.fixed-header {
     color: #fff;
     background-color: #000;
     font-size: 19px;
+    transition: all ease 0.4s;
 
+}
+.call-content a:hover{
+    background-color: #FFF;
+    color:#000;
+    
 }
 
 #news {
