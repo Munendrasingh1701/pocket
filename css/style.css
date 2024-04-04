@@ -1327,7 +1327,7 @@ body.fixed-header {
     width: 100%;
     background-color: transparent;
     border: solid 1px #ababab;
-    color: #fff;
+    color: #fafafa;
 }
 
 .footer-card-2 p input::placeholder {
