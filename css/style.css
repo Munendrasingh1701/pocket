@@ -1447,8 +1447,8 @@ body.fixed-header {
 .arrow{
     position: relative;
 }
-.prev span{
-    display:flex;
+.prev span {
+    display: flex;
     justify-content: center;
     align-items: center;
     color: #F5A96E;
@@ -1457,13 +1457,14 @@ body.fixed-header {
     top: 65%;
     left: -44px;
     visibility: hidden;
-   opacity: 0;
+    opacity: 0;
     width: 55px;
     height: 55px;
     background-color: #F5A96E;
     color: white;
     font-size: 24px;
     transition: all 1s;
+    cursor: pointer;
 }
 .prev-arrow span{
     display:flex;
@@ -1483,8 +1484,8 @@ body.fixed-header {
     font-size: 24px;
      transition: all 1s;
 }
-.next span{
-    display:flex;
+.next span {
+    display: flex;
     justify-content: center;
     align-items: center;
     color: #F5A96E;
@@ -1492,14 +1493,15 @@ body.fixed-header {
     z-index: 11;
     top: 65%;
     right: -44px;
-   visibility: hidden;
-   opacity: 0;
+    visibility: hidden;
+    opacity: 0;
     width: 55px;
     height: 55px;
     background-color: #F5A96E;
     color: white;
     font-size: 24px;
     transition: all 1s;
+    cursor: pointer;
 }
 .next-arrow span{
     display:flex;
